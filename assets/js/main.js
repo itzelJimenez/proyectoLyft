@@ -40,7 +40,34 @@ function reproducirVideo1(){
   var imagenReproducir =  video1.nextElementSibling;
   imagenReproducir.style.display = "none";
 }
+// Funcionalidad segunda seccción de video
+var div2 = document.getElementById("divV2");
 
+div2.addEventListener("click",principal);
+
+function principal() {
+  console.log(this.id);
+  // Se obtiene el frame del video
+  var video = this.lastElementChild;
+// Se obtienen los hermanos del video
+  var circulo = this.firstElementChild;
+  var img = video.previousElementSibling;
+  reproducir(video);
+  ocultar(video,circulo, img);
+}
+// FUnción que reproduce el video
+function reproducir(video) {
+  video.src += "?autoplay=1";
+}
+// Función que oculta/muestra elementos
+function ocultar(video, circulo, img) {
+  // Se olcultan/muestran elementos obtenidos en la función principal
+    circulo.style.display = "none";
+    img.style.display = "none";
+    video.style.display = "block";
+}
+
+// Termina funcionalidad de 2da sección de video
 
 //Esta función es la del vídeo de la seccion de Monse//
 var video3=document.getElementById('tercerVideo');
