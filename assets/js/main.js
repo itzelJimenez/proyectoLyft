@@ -84,3 +84,20 @@ function ocultar(video, circulo, img) {
 //Termina 2da sección de video 
 
 //Funcionalidad Header
+
+var navBar1 = document.getElementById("block");
+var navBar2 = document.getElementById("none");
+
+function onScroll(){
+  var countScroll = document.body.scrollTop;
+    if(countScroll>106.6){
+      navBar1.style.display="none";
+      navBar2.style.display="block";
+    } else {
+      navBar1.style.display="block";
+      navBar2.style.display="none";
+    }
+}
+document.addEventListener("scroll", onScroll);
+
+//Termina funcionalidad Header
