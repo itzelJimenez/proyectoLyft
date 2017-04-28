@@ -1,0 +1,56 @@
+.floatLeft{
+  float: left;
+}
+.floatRight{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+.oculto{
+  display: none;
+}
+.hidden{
+  visibility: hidden;
+}
+.bck{
+  display: block;
+}
+.fondoBlanco{
+  background-color: white;
+}
+/*Terminan Estilos Globales */
+.contPicture{
+  width: 5.85%;
+  margin: 3.7% 0% 0% 7.42%;
+}
+.contenedorLi{
+  width: 49.8%;
+  margin-top: 2.7%;
+  margin-right: 2%;
+}
+.contenedorLi li{
+  margin-top: 3.3%;
+  display: inline-block;
+  margin-right: 5%;
+  margin-left: 2%;
+}
+.letraBlanca{
+  color: white;
+}
+.letraMorada{
+  color: #352384;
+}
+nav, header{
+  width: 100%;
+  height: 110px;
+  position: fixed;
+  z-index: 7;
+}
+.link{
+  font-size: 20px;
+  text-decoration: none;
+}
+.link:hover{
+  color: #ff00bf;
+}
