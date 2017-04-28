@@ -82,3 +82,5 @@ function ocultar(video, circulo, img) {
     video.style.display = "block";
 }
 //Termina 2da sección de video 
+
+//Funcionalidad Header
