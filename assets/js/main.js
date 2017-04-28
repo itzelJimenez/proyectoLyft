@@ -19,7 +19,7 @@ inputTel.addEventListener("click",mostrarFormulario);
 var inputs = document.getElementsByClassName('inputs');
 
 for(var i = 0; i < inputs.length; i++){
-  inputs[i].addEventListener('click', textoInputs)
+  inputs[i].addEventListener('click', textoInputs);
 };
 
 //modifica los imputs y hace chicos los labels
