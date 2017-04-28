@@ -1,12 +1,12 @@
 /*******ESTILOS GENERALES*********/
 body{
 	height: 100%;
-	font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	color:#333447;
-	margin-top: 0px;
-	margin-left: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: Helvetica,Arial,Lucida,sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color:#333447;
 }
 .bck{
   display: block;
@@ -19,16 +19,13 @@ body{
 .inline{
   display: inline;
 }
-
 .ocultar{
 	display: none;
 }
-
 .espaciado{
 	letter-spacing: 1.5px;
 }
-
- .mayus{
+.mayus{
 	text-transform: uppercase;
 }
 /*Estilos para secciones de video*/
@@ -48,23 +45,19 @@ body{
 .flotarIz{
 	float: left;
 }
-
 .videoDiv{
 	width: 65%;
   cursor: pointer;
 }
-
 .videoDiv > img{
   width: 100%;
   margin-top: 0px;
   margin-left: 0px;
   /*height: 100%;*/
 }
-
 .video{
   display: none;
 }
-
 .circulo{
   position: absolute;
   width: 80px;
@@ -75,7 +68,6 @@ body{
   border-radius: 50%;
   background-color: rgba(110, 110, 119, 0.8);
 }
-
 .triangulo{
   border-left: 50px solid #fff;
   border-top: 25px solid transparent;
