@@ -1,3 +1,4 @@
+
 var inputTel = document.getElementById('telefono1');
 var formulario1 = document.getElementById('forma');
 var formulario2 = document.getElementById("forma2");
@@ -87,17 +88,29 @@ function ocultar(video, circulo, img) {
 
 var navBar1 = document.getElementById("block");
 var navBar2 = document.getElementById("none");
-
-function onScroll(){
+var explore = document.getElementById("explore");
+function showBar(){
   var countScroll = document.body.scrollTop;
     if(countScroll>106.6){
-      navBar1.style.display="none";
-      navBar2.style.display="block";
+      showNavBar2()
     } else {
-      navBar1.style.display="block";
-      navBar2.style.display="none";
+      showNavBar1()
     }
 }
-document.addEventListener("scroll", onScroll);
+function showNavBar1(){
+  navBar1.style.display="block";
+  navBar2.style.display="none";
+}
+function showNavBar2(){
+  navBar1.style.display="none";
+  navBar2.style.display="block";
+}
+function removeEvent(){
+  alert("estas fuera")
+}
+
+navBar1.addEventListener("mouseover", showNavBar2);
+navBar2.addEventListener("mouseout", showNavBar1);
+document.addEventListener("scroll", showBar);
 
 //Termina funcionalidad Header
