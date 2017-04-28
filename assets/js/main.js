@@ -81,3 +81,31 @@ function reproducirvideo3(){
   video3.src+="?autoplay=1";
 }
 //Aquí termina la funcion de Monse//
+
+// Funcionalidad 2da sección de video
+var div2 = document.getElementById("divV2");
+
+div2.addEventListener("click",principal);
+
+function principal() {
+  console.log(this.id);
+  // Se obtiene el frame del video
+  var video = this.lastElementChild;
+// Se obtienen los hermanos del video
+  var circulo = this.firstElementChild;
+  var img = video.previousElementSibling;
+  reproducir(video);
+  ocultar(video,circulo, img);
+}
+// FUnción que reproduce el video
+function reproducir(video) {
+  video.src += "?autoplay=1";
+}
+// Función que oculta/muestra elementos
+function ocultar(video, circulo, img) {
+  // Se olcultan/muestran elementos obtenidos en la función principal
+    circulo.style.display = "none";
+    img.style.display = "none";
+    video.style.display = "block";
+}
+//Termina 2da sección de video 
