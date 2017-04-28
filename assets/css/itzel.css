@@ -1,13 +1,13 @@
-.floatLeft{
+.float-left{
   float: left;
 }
-.floatRight{
+.float-right{
   float: right;
 }
 .clear{
   clear: both;
 }
-.oculto{
+.behind{
   display: none;
 }
 .hidden{
@@ -16,30 +16,33 @@
 .bck{
   display: block;
 }
-.fondoBlanco{
+.bg-white{
   background-color: white;
 }
 /*Terminan Estilos Globales */
-.contPicture{
+.container-logo{
   width: 5.85%;
   margin: 3.7% 0% 0% 7.42%;
 }
-.contenedorLi{
-  width: 49.8%;
+.container-li{
+  width: 51%;
   margin-top: 2.7%;
-  margin-right: 2%;
+  margin-right: 0%;
 }
-.contenedorLi li{
+.container-li li{
   margin-top: 3.3%;
   display: inline-block;
-  margin-right: 5%;
-  margin-left: 2%;
+  margin-right: 0%;
+  margin-left: 2.8%;
 }
-.letraBlanca{
+.white-letter{
   color: white;
 }
-.letraMorada{
-  color: #352384;
+.black-letter{
+  color: #728099;
+}
+.pink-letter{
+  color: #ff00bf;
 }
 nav, header{
   width: 100%;
@@ -50,7 +53,22 @@ nav, header{
 .link{
   font-size: 20px;
   text-decoration: none;
+  letter-spacing: 2px;
+  padding: 10px 10px;
+  font-weight: 300;
 }
 .link:hover{
   color: #ff00bf;
+}
+.gray-border{
+  border: solid #d8dce6 1px;
+  border-radius: 10px 10px;
+}
+.pink-border{
+  border: solid #ff00bf 1px;
+  border-radius: 10px 10px;
+}
+.white-border{
+  border: solid white 1px;
+  border-radius: 10px 10px;
 }
