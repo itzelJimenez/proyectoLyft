@@ -350,3 +350,8 @@ margin-bottom: 5%;
 	bottom: 32px;
 }
 /*Termina sección lexa*/
+.container-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
