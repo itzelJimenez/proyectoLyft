@@ -355,3 +355,8 @@ margin-bottom: 5%;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	background-color: gray;
+}
+.container-footer ul li{
+	color: white;
+}
