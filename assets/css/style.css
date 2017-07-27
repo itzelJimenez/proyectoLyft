@@ -356,7 +356,7 @@ margin-bottom: 5%;
 	justify-content: space-around;
 	align-items: center;
 	background-color: #352384;
-	margin: 2%;
+	padding: 2%;
 }
 .container-footer ul li, .container-footer ul li a{
 	color: white;
